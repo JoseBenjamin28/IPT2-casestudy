@@ -1,0 +1,142 @@
+
+
+* {
+    font-family: Roboto;
+    background-color: rgb(244, 244, 244);
+}
+body {
+    margin: 0;
+}
+p {
+    margin: 0;
+}
+
+.greet {
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;   
+    margin: 0;
+}
+
+.welcome {
+    font-size: 60px;  
+}
+
+a {
+    font-size: 23px;
+    color: blueviolet;
+    font-weight: 450;
+    font-style: normal;
+    transition: all 0.5s;
+}
+
+a:hover {
+    color: rgb(8, 91, 8);
+}
+.whole {
+    display: flex;
+    justify-content: center;
+    background-color: azure;
+}
+
+.page {
+    display: flex;
+    width: 60%;
+    flex-direction: row;
+    justify-content: center;
+    border-style: none;
+    margin-top: 20px;
+    margin-bottom: 20px;
+    box-shadow: 0px 0px 8px #888888;
+    
+    
+}
+
+.container1 ,
+.container2{
+    display: flex;
+    height: 100vh;
+ 
+}
+
+.container1 {
+    width: 60%;
+    margin-left: 60px;
+    margin-top: 60px;
+    flex-direction: column;
+    
+}
+
+.container1 H1{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    justify-content: center;
+    align-items: center;
+    
+}
+
+
+.name {
+    font-size: 25px;
+    margin-top: 10px;
+    font-weight: 500;
+    
+}
+span {
+    color: red;
+}
+.container2 {
+    width: 40%;
+    overflow: hidden;
+    margin-top: 60px;
+    margin-right: 60px;
+    flex-direction: column;
+    
+}
+.image {
+    
+}
+ .splash {
+    width: 220px;
+    height: 220px;
+    border-radius: 50%;
+    margin-bottom: 70px;   
+    margin-left: 20px; 
+ }
+
+ .music {
+    width: 80%;
+    border-style: ridge;
+    border-radius:10px;
+    margin-top: 20px;
+    
+ }
+
+
+ .music p {
+    margin-left: 20px;
+    margin-bottom: 1px;
+    margin-top: 20px;
+ }
+
+ .quote {
+    font-family: 'Style Script', cursive;
+    font-style: italic;
+    margin-bottom: 110px;
+ }
+ .show {
+    margin-left: 130px;
+ }
+
+ .social {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-left: 0px;
+ }
+ .social img {
+    width: 50px;
+    height: 50px;
+ }
